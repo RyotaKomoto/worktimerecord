@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=59808000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=175164000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,20 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>laborflow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]},"attributes":{}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.work_start_time","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛勤務開始時間 (work_start_time)","reference":"","reference_display":"勤務開始時間 (work_start_time)","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_start_time","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.work_endtime","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛退勤時間","reference":"","reference_display":"退勤時間","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_endtime","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.work_start_tim0","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛勤務開始時間 (work_start_tim0)","reference":"","reference_display":"勤務開始時間 (work_start_tim0)","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_start_tim0","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null],"a63c0ce8-fe9c-40af-9b3c-2ad605161d35":["condition"],"833c00e1-0e84-4230-8c11-fff896970a0c":["condition"]}},{"name":"Created or Updated_1.current.user_name.first_name","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1813832_0_working_hours_table","column_name":"user_name","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_subject"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["ah_subject"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["ah_subject"]}},{"name":"Created or Updated_1.current.user_affiliation.dept_head.email","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛所属➛Department head➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"0d4b4baf-927a-4121-87ee-beb2d602f18a":["ah_to"],"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_to"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["ah_to"],"e8434852-464c-43fe-bec0-89e17052f1ac":["ah_to"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"0d4b4baf-927a-4121-87ee-beb2d602f18a":["record"],"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["record"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["record"],"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["record"],"e8434852-464c-43fe-bec0-89e17052f1ac":["record"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["record"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]},"attributes":{}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]}},{"name":"Created or Updated_1.current.user_affiliation.dept_head","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛所属➛Department head","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmn_department","column_name":"dept_head","usedInstances":{"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["approval_conditions"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["ah_to"]}},{"name":"{{static.6c36026fc37ba21058a9d5fc05013192}}","label":"admin komoto","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["approval_conditions"]}},{"name":"Created or Updated_1.current.user_name.email","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_to"]}},{"name":"Created or Updated_1.current.today","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛Date","reference":"","reference_display":"Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1813832_0_working_hours_table","column_name":"today","usedInstances":{"e8434852-464c-43fe-bec0-89e17052f1ac":["ah_subject"]}},{"name":"flow_variable.end_work","label":"Flow Variables➛退勤","type":"string","base_type":"string","usedInstances":{"833c00e1-0e84-4230-8c11-fff896970a0c":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"92f0c4d5-d0f8-49a0-8155-6d377e8bae96"}}]</label_cache>
         <master_snapshot>67065d8bc3bcf21058a9d5fc0501318f</master_snapshot>
         <master_snapshot_digest/>
         <name>laborflow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>8158bc93c3b8761058a9d5fc05013127</remote_trigger_id>
+        <remote_trigger_id>1860f367c3307a1058a9d5fc050131bb</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
@@ -36,42 +36,64 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>43245d87c3bcf21058a9d5fc05013193</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name>laborflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
         <sys_policy/>
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_hub_flow_43245d87c3bcf21058a9d5fc05013193</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-30 11:48:01</sys_updated_on>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-10-30 20:47:51">83944adfc3f0b61058a9d5fc05013153</version_record>
+        <version_record display_value="Created 2025-10-31 23:17:13">a4603767c3307a1058a9d5fc05013147</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=43245d87c3bcf21058a9d5fc05013193"/>
     <sys_variable_value action="delete_multiple" query="document_key=43245d87c3bcf21058a9d5fc05013193"/>
-    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <catalog_item/>
+        <condition table="x_1813832_0_working_hours_table">status=退勤<item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="退勤"/>
+        </condition>
         <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
         <published_version/>
         <run_flow_in>background</run_flow_in>
-        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 06:14:35</sys_created_on>
+        <sys_created_on>2025-10-31 14:17:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8158bc93c3b8761058a9d5fc05013127</sys_id>
+        <sys_id>1860f367c3307a1058a9d5fc050131bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
-        <sys_scope/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:35</sys_updated_on>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <table>x_1813832_0_working_hours_table</table>
         <trigger_definition/>
-    </sys_flow_catalog_trigger>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=43245d87c3bcf21058a9d5fc05013193"/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>43245d87c3bcf21058a9d5fc05013193</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:11</sys_created_on>
+        <sys_id>5c60f367c3307a1058a9d5fc050131bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <trigger display_value="">1860f367c3307a1058a9d5fc050131bb</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN5c60f367c3307a1058a9d5fc050131bc"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN03245d87c3bcf21058a9d5fc05013197"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -353,20 +375,20 @@
         <sys_created_by>admin_komoto_ryota</sys_created_by>
         <sys_created_on>2025-10-30 06:36:44</sys_created_on>
         <sys_id>256db45fc3b8761058a9d5fc05013116</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-30 11:47:11</sys_updated_on>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:08</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN76940adfc3f0b61058a9d5fc050131f5"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN4144ebebc3bc3a1058a9d5fc0501313f,5a9ee323c3307a1058a9d5fc050131c1,c23c672fc3fc3a1058a9d5fc050131f0"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -376,22 +398,353 @@
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-30 11:47:51</sys_created_on>
-        <sys_id>76940adfc3f0b61058a9d5fc050131f5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:24:17</sys_created_on>
+        <sys_id>4144ebebc3bc3a1058a9d5fc0501313f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-30 11:47:51</sys_updated_on>
-        <ui_id>7ba5ee2b-60f9-4172-847c-c71ce60010d3</ui_id>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:08</sys_updated_on>
+        <ui_id>e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+2STWvjMBCG/0rQ2QQ7SUOb29IQKPQD2pJLKWYsjROBLHslOW029L/vyJadbOiWHHLYwuaU+dK88/p52TEp2IxNUMTJVTLl42Q8HsXx6HKSZNNxlozEGBATFjENBVKnQV4aQfEGVO0T9FdIWynYLvcZvpZKGNRs9vIasQoMDTs0bLY7Kp26XUGGilofu/XHcty28rEoeV2gdqnskrdhch4qg5s5VWjIy0niiOG7Qy2QhOSgLEasAC3AlWbLZs7UlDAI4kGrbd+xltq1hxbwbuUv2jyJfV+OdBkPJvRhGgxq0/kcHDzRy9zVpverlBxt64nAHGrlrg9zbcND5WSp2xEHmeqmS1UX+r51hPUPHHyP2pIIrPydXnl7Vv60Lt8eO5ELqRtLwomq5KD6CJwzMqudl7NjqLDxuICqknqVVqbcyGaYpBTDlaJgmKvyjXZaudJD4F73kFyF4YLy8ya9BCP9EXf0DA1/RMxu7bUCa/enkIfpz9oraQ8LJ6SNC40FaUOCH+ZGVu4HrdpgEP4RBb7j0ZeE4R6oBmt7Xr5P2N7xvZCohP1ETuDbYUFSHKatvD8Rfw7FwTIUe8rPhnkyjZvff9j/Xdizi69w41d7ug7ePCvwJyjogH9uvuznijrmj3O3h7OD+7YQWL84G+qX3wnycMa3p/xvbL/+BicFhF+qCAAA</values>
+        <values>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</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76940adfc3f0b61058a9d5fc050131f5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4144ebebc3bc3a1058a9d5fc0501313f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>833c00e1-0e84-4230-8c11-fff896970a0c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:09:24</sys_created_on>
+        <sys_id>5a9ee323c3307a1058a9d5fc050131c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:09</sys_updated_on>
+        <ui_id>74c9e2ed-acb2-4971-9f84-819f00c02cbc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7bNhR+FULXnitb/s1dlyBogbUFWq+9aAqBIimLCyVqFBXHC3yzAsP2AH2DPsBu9zzB9hw7lCjLimPXtbOgA3wXHfIcnu+c7zuk8/7G4dQ5cXp05A6CsIeHrtf1XHfUHY8Dbxy6o+HY7RDqtJwExwx2KkakMt9XWOTGcHNzqhjWjCKp0I8pNX/6nTbJlWKJXixgK+VZKvD8rfUAC4m4oLDunLz/0HJSrCC4Zso5ubmzpOcp8wUOmADHM0nyGIKi52cQY9fEK+8JVlOm0esKwF1A5ij4pvYQnxsjLJm03JbDrjVLKINDQywy1nJinABYqeZLC9SBvkpEbYh4oiHk0yyThENhMqQjhliMuUAzriOEUXl82zHxrjP+C6TgdU2okEERiMmIJ4RTyMhZMfu2prD8vF4mkeSEvUo1l0lZaI0DUdVcijxOXpaoTVdYiHOhV7qSZxCXpQamyVurHDCEbyI5e12de86ToiAWoJAEi+UX1lrxIAecRSMFw6qO5xcpmZhwEhOsqHGM05QnUz9V8ooXgSHNuD0V8NEOhZyBf8anSRsTg6kNBcftc7CfFea3WHED8AWEAedFUSD/59zkVEJsHm72+kXfYWtGFE/1Uwh8xZYQSqNJ3/IC/rpn42KxaFnpdMbbGEh7NdNWjq/lc+13Rh1v5HV9159JdWmqEclcZX7ZujX1vCs3oWdmE5rYTfsJqvBGL8uMdkXTcN6AzmqpYbNS6hwkpQnoR5dCLhuEqjIt5TNym/LZIJsHl4tNdG+9/DeagL5mfslgi604/Ita2aCQJe3dwSAIBkF/6NVEGZOQDoNwgIfEq4kxg8GnYqwu/WLwrXC/s85uOx/2pDM4Pzkv4LV2zrJyhjEqcsrQuyrdbQgsvwMpYcglNbm7B5G7ZCLSEkHvxBxuh+XJxljfHTrCGvEMZdCuNppIxG3yKx4tNJc5ivNMwzYNKw3ZNC6c3qMoxrbWWs/u7fv/QlKHSqe/fcbimng48rXc+a3VhuopH4chF/DYKHCwVPsRsG2xQOtaOzDafhp9A/1JppU+dyjFUtxyvS5WhlkV06rQ267C8l2zJsKVC8Q9XiGNK4QywWNeNLdU6qESoFv7ztxGqwlZkcAD/pxoUnGHlCrH09P1/DZQsbffhXDk4uNxsbP1JyQbNHodPA4Zd8ipcvz+DhuDbXTsH+n4rdOxv731pNHsLA9+YkR/5RPB+N/3j5mv8n2Q6//LWJeOS6T3od9A98HxIfAtPXzx1naH3eYck3S+wuuL3HU9kiKT4XeaJ/OYMCWlDqAMl8UivXAuym3s789//PPpz9uPv93++tftx99L3ydpubjOext7N9/9eP9s8uKHivU7lGE53MsirFXF8j3SsajZPjxwuA/6fW9w5PvqdE9ntEuVTFOL7aAJ/+Ff1kUue24XAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a9ee323c3307a1058a9d5fc050131c1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>a63c0ce8-fe9c-40af-9b3c-2ad605161d35</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:59:01</sys_created_on>
+        <sys_id>c23c672fc3fc3a1058a9d5fc050131f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:09</sys_updated_on>
+        <ui_id>e8434852-464c-43fe-bec0-89e17052f1ac</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXY7bNhC+CqG+uo5s+XfzlO5ikQBNAiRu8pANBIqkLHYpUaWo9boLP/QM7Rl6i5ymB8gVOpQoyVqvHcPeLlLAb+KQM5xv5vtI2p/uHE6dM2dAJ+4oCAd47Hp9z3Un/ek08KahOxlP3R6hTsdJcMxgpWJEKjO+wSI3hru7c8WwZhRJhX5Jqfn0e12SK8USvVrBUsqzVODlB+sBFhJxQWHeOfv0ueOkWEFwzZRzdndvSi9T5gscMAGOF5LkMQRFry4gxr6JV94zrOZMo3cVgPuAzFYwpnYTnxsjTJm03I7DbjVLKINNQywy1nFinABYqZa1BepA3yaiMUQ80RDyRZZJwqEwGdIRQyzGXKAF1xHCqNy+65h4txn/HVLw+iZUyKAIxGTEE8IpZOSsmX1bU5h+1UyTSHLC3qaay6QstMaBqGouRR4nb0rUpissxLnQa13JM4jLUgPT5K1VDhjC95FcvKv2veRJURALUEiCRT3CWise5ICzaKRgWDXx/CIlExN2YoIVNY5xmvJk7qdK3vAiMKQZd+cCBt1QyAX4Z3yedDExmLpQcNy9BPtFYf6AFTcAX0MYcF4VBfJ/y01OJcT25matX/QdlmZE8VS/gMA3rIZQGk36lhfw9cDC1WrVsdLpTXcxkA4apq1t38jn1u9Net7E6/uuv5Dq2lQjkrnK/LJ1G+r5WC5CL80iNLOLDhNU4Y3elBnti6blvAWd1VLLZqXUO0pKM9CPLoVcNghVZarlM3Hb8tkim0eXi030YL38N5qAvmZ+yWCLrdj8m1rZopCa9u5oFASjYDj2GqJMSUjHQTjCY+I1xFjAwadirK794uBb435vk932fDiQzuD87LKA19k7y8oZjlGRU4Y+VunuQmD5HUgJh1zSkLt/FLlLJiItEfROLOF2qHc2xubu0BHWiGcog3Z10UwibpNf8+igpcxRnGcalmmYacmmdeEMnkQxtrXWevFg3/8XkjpWOsPdZyxuiIcjX8u931pdqJ7ycRhyAY+NAgdLtR8B27oFb1YrtKm4R4l5mF7fQ6+SeaXVPcpSC11u1shKMqtiWkV6uxVZvnE2BLl2mbin66R1nVAmeMyL5paqPVYOdGffmdtqNSFrcnjEnxZtKu6RUuV4fr6Z3xYqDg67HE5cfDou9nb+nGSjVq+DpyHjHjlVjj/dY2Owi47DEx2/dzoOd7eetJqd5cGvjOj9nwtaUrx86A+avf0e5dr/NsbasUb4EOotNB+dHgDf0+MX72x32G+fX5Iu1/h8lbuuR1JkMvxR82QZE6ak1AGU4bqYpFfOVbmM/fPH31+//Pn1y1+l17O0NG+y3UatvcxHf/TDbRgOvedrg8HzjUiH8f/l7PXPFfv3KEd9uJfF2KiO5X2kY9Gwfnzk4T4aDr3Riffrp3u6oH2qZJpabEed8J//BQfFk4l6FwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c23c672fc3fc3a1058a9d5fc050131f0"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=43245d87c3bcf21058a9d5fc05013193"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=43245d87c3bcf21058a9d5fc05013193"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN555e2f23c3307a1058a9d5fc05013163,696e2363c3307a1058a9d5fc0501315b,adfb6bebc3fc3a1058a9d5fc05013153"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab50b367c3307a1058a9d5fc0501315d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</flow>
+        <flow_variables_assigned>end_work</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:08:15</sys_created_on>
+        <sys_id>555e2f23c3307a1058a9d5fc05013163</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:09</sys_updated_on>
+        <ui_id>324a50db-bb95-4713-beef-27e99482cd9b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/5WPMQ7CMAxF7+K5J+jWkb1iQRUKiQsWJonipFVV9e6NBQjWbl/v237yCqHkWLL0oROhu4f2MjRAXlnNK5CDFqABb15YE3p3nUN6VjIZLvgu7YPYJfxsi00Uc2czTbUfDQtug84nMjfGA3cdSWSznA+aHFoSCr5X3en7ixZL1ZH9RyodOcw/tu0mY6uBFQEAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab50b367c3307a1058a9d5fc05013185</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:08:33</sys_created_on>
+        <sys_id>696e2363c3307a1058a9d5fc0501315b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:09</sys_updated_on>
+        <ui_id>833c00e1-0e84-4230-8c11-fff896970a0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTWsbMRD9K0HnZdmP2DS+hZRAoW2gSXNpg9BKWltUK20lrR13WYh76CW/IPde+rtMC/0XHe2HYxqHmJJjb6s3o5n3nmbYGunKlZWzF/rYWjFVaPLhKkBCeQy+ayQYmqA8Inl8RGOaJuM0iaLkxWGcjdMsTlhKOElRgBQpOGRSrZhwQivcAgGaE1n5wO+bm5+333/dfV2vbterH+vVN/iAOBO2lGR5+UQanQnJDO/5lcRAdccNmtR/hdyy5FiSjEuodu6MUFO4vq+K4eLJIOPgdYs8rs/3A9wOnbRhnlYcBYhfO64Yh9Y5kZYHqCCKEafNcoMYTtiZkvfATCgH5ZBPvrbiC9RORiOfmHPQSHkX3Bxx718H05kWlJ+VnmCHOJLJ/g7VsirU206Hd57npJJucB6QykI9XnrSnkVPKT+f6cW7oeGpUK3APig1JXJzIg5syCrHrX8YLnkBhXBByhLMwaXRc9FeBi5FOJVwCHOpF9DUz15IqCcegkckPAX8ZQtfEiO8ijdQBi53NDNiBcXtnEI5Z0BC09qCP1eeUCewl4I7NyDBUiNKdwx95rxn3QT9kB+RUT6Ko9Hu8Tgc7xiCrfmu6xN4TMfZgTYH70vmP3Ec0sqAbS60jrjKNs3HKopSVtet7HmvLASaeKHNp6Z5uBHPV/g5dmgPkx7s0G7jHlmc5InF8U+9595EUfR/cbYXR1jcLUCvrW3+z3tz5Ye/62C7uWGcCgtELjz2aviH+MASBkDQbchPpZdwjzV/AJiPQqaNBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2f50b367c3307a1058a9d5fc05013159</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:57:54</sys_created_on>
+        <sys_id>adfb6bebc3fc3a1058a9d5fc05013153</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:09</sys_updated_on>
+        <ui_id>a63c0ce8-fe9c-40af-9b3c-2ad605161d35</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy24TMRT9lcjr0WgeTUSzq4oqIQGVaOkGqtEd25NYeOzB9iQNo0iFDYt+AXu+gt9BReIvuJ5HGtFUDYglu/HxfZxzfa6mIbp2Ve3suT6yVswUmb65DIhQHsPvhghGpqSIoIgPaUzTZJImUZQ8OYjzSZrHCUuBQ0oCoqDkGEm1YsIJrbIWCMgCZO0vbj9/u735+uPLp+8fb35eX2++MYQJW0lYXTweSedCMsN7lhUY7OG4IdPmtyu3qngmIecSC545I9QM0/fVMiQeD2JGz1vkYZW+H+J26KQN87TiKCD8ynHFOLYuQFoekBIUA6fNaoMYDuxUyTtgLpTDcsQHX1nxAWsn47EPLDhqpLy73ByzfoQdTOdaUH5aeYId4iCXfQ7Vsi7Vy06HHz4voJZuGD4itcV6vPKkPYueUnE218tXQ8MToVqB/aXUFOTmBA7HkNeOW/8wXPISC2UlVBUOJ6uMXog2GbmU4UziISykXmJT78AQqCce4owgPEH8aQtfgBFexQssg8kdzRysoFnrViznDEpYt2PJ3teeUCewl5J108AAS42o3BH2WfCe9TrorX4I42IcR+Pd9jiY7DDBlsub5hgf03E20mb0umL+M4tDWhscmwutA1fb9fptHUUpu2/9P03/F/uwh+B7+7B7CA8sQfLIEvhn23MHoij6vwTbSyBs1pm519Y2/+sduPRG7jrYzjeMU2GRyLnHng1/BX+xQgMIug0ttXnnJdxh619OKci1XwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN4fc4ebebc3bc3a1058a9d5fc050131a3,7a85af6fc3bc3a1058a9d5fc0501311c,80862723c3fc3a1058a9d5fc05013151,8fc4ebebc3bc3a1058a9d5fc050131a4,b285af6fc3bc3a1058a9d5fc0501311c,b915a36fc3bc3a1058a9d5fc05013158,fd15a36fc3bc3a1058a9d5fc05013158"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:26:35</sys_created_on>
+        <sys_id>4fc4ebebc3bc3a1058a9d5fc050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:26:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d38d71e1-276e-4300-beda-30a559fd0e84</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_endtime}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:29:51</sys_created_on>
+        <sys_id>7a85af6fc3bc3a1058a9d5fc0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:29:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>47f60523-dda1-466c-850a-c75b042b7df8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_start_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:34:02</sys_created_on>
+        <sys_id>80862723c3fc3a1058a9d5fc05013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:34:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>85f195de-6c58-40d6-9078-3e74fba23b88</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.user_name.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:26:35</sys_created_on>
+        <sys_id>8fc4ebebc3bc3a1058a9d5fc050131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:26:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7380d7df-4834-4c77-ba65-5f107393c47b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_start_tim0}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:29:51</sys_created_on>
+        <sys_id>b285af6fc3bc3a1058a9d5fc0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:29:51</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5c6769d-707a-4160-a78e-07f184acb593</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:27:52</sys_created_on>
+        <sys_id>b915a36fc3bc3a1058a9d5fc05013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:27:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f1cb93cd-911b-4494-bdc1-d7931c99b79c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>43245d87c3bcf21058a9d5fc05013193</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.user_name.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:27:52</sys_created_on>
+        <sys_id>fd15a36fc3bc3a1058a9d5fc05013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:27:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d7ca2f35-d2a0-463f-b722-c8ff2b2a31f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=43245d87c3bcf21058a9d5fc05013193^sys_idNOT INe0edefefc3fc3a1058a9d5fc05013110"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=92f0c4d5-d0f8-49a0-8155-6d377e8bae96</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>end_work</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>退勤</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="laborflow">43245d87c3bcf21058a9d5fc05013193</model>
+        <model_id>43245d87c3bcf21058a9d5fc05013193</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_43245d87c3bcf21058a9d5fc05013193</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:06:17</sys_created_on>
+        <sys_id>e0edefefc3fc3a1058a9d5fc05013110</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:10:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -477,7 +830,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>laborflow</internal_name>
-        <label_cache>[{"name":"Created_1.current.status","label":"Trigger - Record Created➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.work_start_time","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛勤務開始時間 (work_start_time)","reference":"","reference_display":"勤務開始時間 (work_start_time)","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_start_time","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.work_endtime","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛退勤時間","reference":"","reference_display":"退勤時間","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_endtime","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.work_start_tim0","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛勤務開始時間 (work_start_tim0)","reference":"","reference_display":"勤務開始時間 (work_start_tim0)","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1813832_0_working_hours_table","column_name":"work_start_tim0","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null],"a63c0ce8-fe9c-40af-9b3c-2ad605161d35":["condition"],"833c00e1-0e84-4230-8c11-fff896970a0c":["condition"]}},{"name":"Created or Updated_1.current.user_name.first_name","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":[null]}},{"name":"Created or Updated_1.current.user_name","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1813832_0_working_hours_table","column_name":"user_name","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_subject"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["ah_subject"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["ah_subject"]}},{"name":"Created or Updated_1.current.user_affiliation.dept_head.email","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛所属➛Department head➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"0d4b4baf-927a-4121-87ee-beb2d602f18a":["ah_to"],"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_to"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["ah_to"],"e8434852-464c-43fe-bec0-89e17052f1ac":["ah_to"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"0d4b4baf-927a-4121-87ee-beb2d602f18a":["record"],"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["record"],"ee348b49-f086-43ef-b744-18ff3c775ba0":["record"],"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["record"],"e8434852-464c-43fe-bec0-89e17052f1ac":["record"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["record"]},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Working Hours Table Record","reference":"x_1813832_0_working_hours_table","reference_display":"Working Hours Table","type":"reference","base_type":"reference","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]},"attributes":{}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Working Hours Table Record➛ステータス","reference":"","reference_display":"ステータス","type":"string","base_type":"string","parent_table_name":"x_1813832_0_working_hours_table","column_name":"status","usedInstances":{"70c23170-e552-4867-91b2-e865854571da":["record"]}},{"name":"Created or Updated_1.current.user_affiliation.dept_head","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛所属➛Department head","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"cmn_department","column_name":"dept_head","usedInstances":{"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["approval_conditions"],"74c9e2ed-acb2-4971-9f84-819f00c02cbc":["ah_to"]}},{"name":"{{static.6c36026fc37ba21058a9d5fc05013192}}","label":"admin komoto","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"c5e70e49-3be2-499d-97a5-0cceeb2ccb4e":["approval_conditions"]}},{"name":"Created or Updated_1.current.user_name.email","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛ユーザー名➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa":["ah_to"]}},{"name":"Created or Updated_1.current.today","label":"Trigger - Record Created or Updated➛Working Hours Table Record➛Date","reference":"","reference_display":"Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1813832_0_working_hours_table","column_name":"today","usedInstances":{"e8434852-464c-43fe-bec0-89e17052f1ac":["ah_subject"]}},{"name":"flow_variable.end_work","label":"Flow Variables➛退勤","type":"string","base_type":"string","usedInstances":{"833c00e1-0e84-4230-8c11-fff896970a0c":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"92f0c4d5-d0f8-49a0-8155-6d377e8bae96"}}]</label_cache>
         <master>true</master>
         <name>laborflow</name>
         <natlang/>
@@ -494,7 +847,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>67065d8bc3bcf21058a9d5fc0501318f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -502,7 +855,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:35</sys_updated_on>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -522,12 +875,12 @@
         <sys_updated_on>2025-10-29 13:45:59</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=27065d8bc3bcf21058a9d5fc05013191"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT IN34587c93c3b8761058a9d5fc050131b7,a7065d8bc3bcf21058a9d5fc050131a4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT IN1fc62363c3fc3a1058a9d5fc0501316e,9fc62363c3fc3a1058a9d5fc0501315c,a7065d8bc3bcf21058a9d5fc050131a4"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -551,7 +904,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>request_item</element>
+        <element>changed_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -559,10 +912,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Request Item</label>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
         <model display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</model>
         <model_id>67065d8bc3bcf21058a9d5fc0501318f</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
@@ -572,7 +925,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -584,8 +937,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 06:14:34</sys_created_on>
-        <sys_id>34587c93c3b8761058a9d5fc050131b7</sys_id>
+        <sys_created_on>2025-10-31 13:35:21</sys_created_on>
+        <sys_id>1fc62363c3fc3a1058a9d5fc0501316e</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -593,7 +946,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:34</sys_updated_on>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -606,7 +959,91 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=34587c93c3b8761058a9d5fc050131b7"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1fc62363c3fc3a1058a9d5fc0501316e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</model>
+        <model_id>67065d8bc3bcf21058a9d5fc0501318f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_67065d8bc3bcf21058a9d5fc0501318f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:21</sys_created_on>
+        <sys_id>9fc62363c3fc3a1058a9d5fc0501315c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9fc62363c3fc3a1058a9d5fc0501315c"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -625,7 +1062,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>sc_req_item</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -646,15 +1083,15 @@
         <internal_type display_value="">table_name</internal_type>
         <label>Table Name</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>200</max_length>
         <model display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</model>
         <model_id>67065d8bc3bcf21058a9d5fc0501318f</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_67065d8bc3bcf21058a9d5fc0501318f</name>
         <next_element/>
-        <order>100</order>
+        <order>101</order>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -670,14 +1107,14 @@
         <sys_created_by>admin_komoto_ryota</sys_created_by>
         <sys_created_on>2025-10-29 13:45:59</sys_created_on>
         <sys_id>a7065d8bc3bcf21058a9d5fc050131a4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:34</sys_updated_on>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -693,35 +1130,35 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7065d8bc3bcf21058a9d5fc050131a4"/>
     <sys_hub_flow_output action="delete_multiple" query="model=67065d8bc3bcf21058a9d5fc0501318f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=67065d8bc3bcf21058a9d5fc0501318f"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT IN38587c93c3b8761058a9d5fc050131da"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT INebc62363c3fc3a1058a9d5fc050131c4"/>
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
         <generation_source/>
-        <name>Service Catalog</name>
+        <name>Created or Updated</name>
         <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 06:14:34</sys_created_on>
-        <sys_id>38587c93c3b8761058a9d5fc050131da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>ebc62363c3fc3a1058a9d5fc050131c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:34</sys_updated_on>
-        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/61TTWsbMRD9K0anFnyQ7SaufQuBgCFtIE5zCWXRSrNrUa20lbSbuCb/vTP7YW/SpQSSmzR6M/PmzdPDgRmRgmFrdlvZyZVxj5ONZVOmbQRvhbnbl4CPcue0BIy3h2sdIls/HFh2L0xFgFTIX7l3lVUIyq4HNTOqqe3khJh8UpCJysTPhN0UIqcKdN6CARlBsXUmTACM/AjD2zcdgrZ5F3ieDghkzsP/CbxEvKPtzykrhFUiOr8/gbwr7qAojYhwDDqvwLP1jPMpq4nodh82qu1qRUH9fWUTYphokr3upsGj0gGL7e9PEbnTRnmwqDxSKIXHCpHqH149RVxa0u/1sl+dpsbnfMXlcr5aLud8seA8O0szmUm5/Drj57OzFeLGDTFKN75yx3BeeIpg1UDGfzXzINSNNafADm3XzlqIp6D/YPEvnHAZ4HCy0+F4TTqNenmIRWh8ad5uwHrMwd0gnCw2VuuFl+oxC/ZSkFu6bpcfT3D2boJzIthKd1NG7dBCbEGrFamhnLAP7cI9SExJotd5jomY5ExV2O9jvujYD7xbBdwWlOQIWnH/abY793jbr/NK24ZS92icFOZ4ExE7p1Uk/Q5MqFpgBjk6euzx3Lgi+V1RRvN7+l5JMxEBgvS6jBcy6hqOX/kv1VCh4wEFAAA=</trigger_inputs>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
-        <trigger_type>service_catalog</trigger_type>
+        <trigger_type>record_create_or_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT INb8587c93c3b8761058a9d5fc050131db"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT IN2fc62363c3fc3a1058a9d5fc050131c8,4c60f367c3307a1058a9d5fc05013134,8860f367c3307a1058a9d5fc05013133"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
         <generation_source/>
@@ -729,21 +1166,352 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 06:14:34</sys_created_on>
-        <sys_id>b8587c93c3b8761058a9d5fc050131db</sys_id>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>2fc62363c3fc3a1058a9d5fc050131c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <ui_id>e6ec034b-b9e8-4bf7-8397-18aa4ba2d9aa</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2fc62363c3fc3a1058a9d5fc050131c8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>833c00e1-0e84-4230-8c11-fff896970a0c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>4c60f367c3307a1058a9d5fc05013134</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:34</sys_updated_on>
-        <ui_id>9d2ab451-fe77-43c7-8075-65a628880570</ui_id>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
+        <ui_id>74c9e2ed-acb2-4971-9f84-819f00c02cbc</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnwZCs1HB8KxIYPbQJ0BTuIQ0ISlzZRClS5cOPGvn3LkXKMVwHbYFeoht3Z3dnlkM9HojgZE6mBeTvrotpXRZlOcnzyeyqqKZlVUx4yQCuSEYUawGRjlUSaH/IyIZJH4I7WsyKclZOaE632nwXakXX2htLezgiubCdZPtlKvgaQaMPATT6kkD1WkhuQJH541NGOmZwigND5oez1N9ylqwCidBhwCUNbt9djH08rR3dxYQ2PPDJMwI7B4oDEmmYtJCRlinOnDZ7MnfGY8AA4/dK7o+ItVAOG5KA3VnxE8fO8oBrAJXVEHPHI007i+Hmljn2gJ1r502C1mstarBxJxwa5qW7OY1FwH3nhFaxJN5HrNbSt+ouroQcGwxXhBFvkQR0QWdgnmQ0D2u9/TywXAjVryQlpa6ZPJ6Yc0ZU3gU+BwISWmxEW9Z1wSGd0RvRFyOXdrySeBg3Um9xqBUrNWZ1ID7GtbLxAuO3fXjJjAgqPmEbLH7OiN3bG8msfdGCS6Q/fGASlSUNNK4hlNRGdO49DthAovucDY+BQ379qrGK6sVIvf/tyUOwjjlvv/k8L/nvrj/L/qPd/8xqsPtCgOT2As3B69AiLQc00j7ze0qOlimZPF/8L88X07z/3pDzo7g3b/yTf9wrT+DpFyKFJiMRBgAA</values>
+        <values>H4sIAAAAAAAA/+2YzW7cNhDHX4XQebvRrrxfvqVrGAngJEDsJoc4ECiKslhTokpRXm+MvTRA0T5A36AP0Gufx2ifo0ORkvbD2a7iLWqjvlnDGXJm+P9ptP5w47DQOXQOwrE7DKIDPHK9vue64/5kEniTyB2PJm6PhE7HSXFCwVNSIqR+vsK80Iabm6mkWNEQCYm+y0L9p9/rkkJKmqrFAlxDlmccz9/ZCLCQmPEQ1p3DDx87ToYlbK6odA5v1pZ2zY7jgHJwPcPygir0tspyPWs1z/RzKEiRQHo+q4wndoMju4JeHsEKBOms3I5DrxVNQwrpRJjntOMkOIVahZzXFmhD+CbljSFmqYItn+e5IAz6kiMVU0QTzDiaMRUjjExiXUfvd52zT5Cc19dbRRR6QHSuLCUshIycJbNvWwrLL5vl6AgrfKpkQVQh604LRmhuuhnSCBdcTZdtxuFNpphITYjCAa+iBS+S9LVpolNvsHSTRQ7J0Ez3RhcLh0Ph0WksZm+rZI9ZWnbRdoULgnn9FJ1SLEl8zCjXV50WSQC+HQcrJVlQKJ0miIKDV3OOX6aqzwJPyml5lQnOMpZe+JkUV6w8ENJPuhccHroRFzOIz9lF2sVE19qF28PdY7AfleZ3WDJd+CvYBoIXHSef51OO87wpH/rv/1Do7E0zVtPR0X4pOB1MJMvUczjqitbFGqMuyAoS/rrDcbFYdCyYvck26YcHjcSXjm/gvPZ745439vq+68+EvNT9iUUhc99c8gab740TeqGd0Jl1aofrDjk3uJoD7qrBorphO1mORa/NggW11xJUI1fL6RnAqcz7w1wPqppUszl2V9n8ApMPg8WasJ1hXIXu3wELRJL7RvS2tvLwrwDuC5jV7LjDYRAMg8HIa3Q4IVE4CqIhHhGv0d0MXs4ywfLSL1/OSwD1NhGxr512TOyQS8UEvNB5EVL0vkpqW54WkkAIeEOm64RAps+Oy+7WhPTvNcqMNJESCC6Tz2GA1SlpYzPeVIwVYjnK4ba66EwgZqtaiuiguShQUuQK3BSsrMC3MhMPHi53Vg7WenSnVh4FmPsHcLB9EOBG2Dj2ldj5o7IL/ZQ+jiLG4bOqrIxmyo9BtIsF2iT2nru1I32HouvpJzY7YIHO4b7TizWeTyujZdnbzrIZbhsoLw0z9+Fi9Vio0YlzlrBSEIb3/YMUbtUUdVdkRMgSSHv49bXD4ZWgp9PNTNoI+uDrhtOToh+dontbf9LT4YqOgn1LeofTK0l/u6bpoLWoB0+i/p+IerBdVmRFSHkRfE+JavnRo+Pv+p9aq9iWHzT/XFUFy2ld0111toFm+PRp858zs39A8FYpRf3VN60I50t0nBeu65EM6Zy/USydJ4RKIVQAjbksF8Nz59y40T9/++WvX3+//fzT7Y9/3H7+2cQ+y8ziJj12791i29GzQ8n1qDEFb3TAchOrhK9R8+Ls1UnDzOieg2Y4GHjDJ2ruPWmyWdgPpcgyW9uep83HvwGBqk6ztRkAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8587c93c3b8761058a9d5fc050131db"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4c60f367c3307a1058a9d5fc05013134"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>a63c0ce8-fe9c-40af-9b3c-2ad605161d35</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>8860f367c3307a1058a9d5fc05013133</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
+        <ui_id>e8434852-464c-43fe-bec0-89e17052f1ac</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXXLbNhDHr4JhX1WFEvXpPKX2eJIZJ5mJ3OQhznBAEDRRgwQLgpYVjx56hvYMvUVO0wPkCl0Q4IckR5VidWpP/UYudoHdxf8HUPp467DQOXIG4cQdBdEAj12v77nupD+dBt40cifjqdsjodNxUpxQ8JSUCKnfrzEvtOH29lhSrGiIhEQ/Z6F+9HtdUkhJU7VcgmvI8ozjxXsbARYSMx7CuHP08VPHybCEyRWVztHt2tCu2XEcUA6u51heUoXeVVmuZ60WmX4PBSkSSM9nlfHMTnBiR9CrExiBIJ2V23HojaJpSCGdCPOcdpwEp1CrkIvaAm0I36a8McQsVTDlizwXhEFfcqRiimiCGUdzpmKEkUms6+j5bnL2GZLz+nqqiEIPiM6VpYSFkJHTMvu2pTD8qhmOTrDCMyULogpZd1owQnPTzZBGuODquG0zDm8zxURqQhQOeBUteJGkb0wTnXqC1k4WOSRDM90bXSwsDoVHs1jM31XJnrK07KLtChcE8/otmlEsSXzKKNdbnRZJAL4dByslWVAonSaIgoNXs45fpqrXAk/KabmVCc4yll76mRTXrFwQ0k+6lxxeuhEXc4jP2WXaxUTX2oXdw91TsJ+U5vdYMl34a5gGgpcdJ1/kxxzneVM+9N//tdDZm2aspqOj/VJwOphIlqkXsNQ1rYs1Rl2QFSQ83eG4XC47FszedJv0w0Ej8dbyDZw3fm/S8yZe33f9uZBXuj+xKGTum03eYPODcUIvtRM6t0774bpDzg2uZoG7arCobtjO2rHojRmwoPb2BNXI1XJ6DnAqc36Y7UFVk2o2J+4qm99g8mGwWBO2M4yr0P07YIFIct+I3tZWLv4dwH0Ds5oddzQKglEwHHuNDqckCsdBNMJj4jW6m8PhLBMsr/zycG4B1NtExB47+zGxQy4VE3Cg8yKk6EOV1LY8LSSBEHBCpuuEQKbPTsvu1oT073WVGWkiJRBsJl/ABVanpI3N9aZirBDLUQ671UXnAjFbVSuigxaiQEmRK3BTMLIC38qdOHi43Fk5WOvJnVp5FGAeHsDh9osAN8LGsa/Ezh+VXein9HEUMQ6fVWVlNFN+DKLtlvJbLtEmtweZcz/qd2hAfROKzW5YuHPY+/Ryje1ZZbRce9u5NhfdBtati819uIg9FoJ04pwlrBSEYf/wUIVbNUXdFRkR0oLqAL/Edli8EvTx8WYm+wh68H0X1ZOiH52ie1t/3tPRio6CQ0t6h9UrSf+0pulgb1EPn0T9PxH1cLusyIqQ8iL4hRK1+weQEiFe3PXf2s5xe37I/HM1FSSzupa76tsHltHTJ81/zsrhwcBbpRT1V09YES5aVFwUruuRDOmcf1QsXSSESiFUAI25KgfDC+fCuNG/fvvz65ffv375w0Q9y4x5kxk7ax2lH/qjH26iaOg9b70Mnm/MtB9FO5ReXzWm8I1OWH5ilfA1el6evz5r2Bnf86IZDYfe6Imee9802Tzsh1Jkma3twLfNp78B40YgqsEZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8860f367c3307a1058a9d5fc05013133"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=67065d8bc3bcf21058a9d5fc0501318f"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=67065d8bc3bcf21058a9d5fc0501318f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT INc460f367c3307a1058a9d5fc05013136,c460f367c3307a1058a9d5fc0501313a,c860f367c3307a1058a9d5fc05013138"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2f50b367c3307a1058a9d5fc05013159</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>c460f367c3307a1058a9d5fc05013136</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <ui_id>a63c0ce8-fe9c-40af-9b3c-2ad605161d35</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27TQBT9lWjWlmXHTUSzq1JVQipUoqUbqKybmXEyYuwx80garEiFDYt+AXu+gt9BReIvuGM7TkSDmgiW7GbO3Mc51/fIFVHOls6aK3VijJgWZPTmJiCi8BieKyIYGZEsgiw+pjFN+sOkH0X9Z0fxZJhM4j5LgENCAlJAzjGSqoIJK1SR1kBA5iCdf3j4/O3h/uuPL5++f7z/eXfXnTGECVNKWF4/HUlnQjLNW5YlaOxhuSaj6renfVlLmHCJoeM17d55jfxZj12WHjdWi2La3s/bKpdrUGnmWcVRQPit5QXjyCcDaXhAcigYWKWXHaI5sItCboCZKCyWIz741ogP2LA/GPjAjKNEypvH7pq2E2zg7BQsIBVHrdNtKJ0pQblphsN4Bk7a8TbWBFyUXmqTYmEi19lKurx42UyEdAXWHwwRZ5AEL71ST73VkV3O1OLVmuWZKOqptI9SUZDdDSzObuKs51MRLnmOhdIcyhInmpZazUWdjFzycCrxEmZSLbCp39oQqCce4mAhPEP8tIavQQuv4gWWweSG5gSMoGm94VgOx8TJKiBmacYSjNmIxOmm752n2EhuxaXNfHwK1aK0J9h5zlsdq6A1zDEMskEcDXav3tFwx4JteaWqxrgTlrOe0r3XJfPHNA6p0zhIGxoL1pnV6q2LooQ9NtCh6Ye5ag9pj1y1W+4hVuo/YSX/Hfd0UhRF/63011YSJm0M0Gqrm/9DJ914OzQ9u1lTYZDalceer/9Q/mGJyyXoNrRQ+p0XtcFWvwCsWN9T6wYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab50b367c3307a1058a9d5fc05013185</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>c460f367c3307a1058a9d5fc0501313a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <ui_id>833c00e1-0e84-4230-8c11-fff896970a0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy2rbQBT9FTNrISQ7No13wSFQSBto0mzaIK5nRvbQkUadhx1XCOIuuskXdN9Nv8u00L/oHUl+0LjEoVl2N3Pmzp1zju5BJVHOFs6aK3VijJjkZPjuJiAi9xiuSyIYGZI0gjQ+pjHtdQe9bhR1XxzF40FvHHdZDzj0SEByyDhWUpUzYYXKkxoIyAyk8we/7u5+3H/7+fXzanm/Wn5fLb/gAs+ZMIWExfUjZXQqJNO85VeAxu6WazIs/zg6lK+EMZdYOloT7pzXyN+V2EXhcWO1yCft/rztcrkGlWaeVRwFhN9anjOOfFKQhgckg5yBVXqxQTQHdpHLLTAVucV2xBffGvEJH+z2+74w5SiR8uZws01a+xo4PQULSMVR63RbSqdKUG4acxhPwUk72sWagovCS22uWBjL9W0lXZa/bhwhmwbrr4WIM0iCF16pp97qSC+nav5mzfJM5LUr7aFUFORmBxa9Gzvr+ZSES55hoySDokBHk0KrmagvI5csnEjchKlUc3zUz2sI1BMP0VgIzxA/reFr0MKreIVt8HJDcwxG0KSebWyHNnFSBcQszEiCMVuR6G7y0XmKjeRWXNL4469QLQp7gi/PeKujCtqoHEM/7cdRf//oHQ32DNhOSspyhDNhOeso3XlbML9M4pA6jUba0FiwzlTVexdFPVaWtRGzVmuINJO50h+q6mGunq/x05J4gB0PkrjfoqfEr/tI/Py3PzB9URT9j98/x0+YpAlNq61+/BnTd+Mj1Ly58ZoKg9SuPPZy/T/zBwscLkF3IT/bXtQWq34DmXtpGhkHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ab50b367c3307a1058a9d5fc0501315d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</flow>
+        <flow_variables_assigned>end_work</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>c860f367c3307a1058a9d5fc05013138</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <ui_id>324a50db-bb95-4713-beef-27e99482cd9b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VS27bMBC9C9e2QdVRYmcXJAgQoG2Axs2mCIQxObKJUqTCjx3XMJB9r9GrddFbdGjKH7g9ggEtyDecmfceh9Ca2RjaGPzE3nivZoZdf3vpMWUSRus1U5JdM9ZjBhqkFRpZLa37TsgCdMQclMq3GlbPB0TMlZYOu3otOEoP6Nj1+iS0rY8cJdZYiyF9UPByBGNZ1oKXvBgWBaeCGqao6eif9/ffP3/9l1BYtQnxwSkz6/Yfu7SnHWidTDSKHsO3QMlI/WvQHnusASMhWLfaIw5BPhp9AObKhCywgTevflC/Eec8nayRNIlO/n5bddZkuL6DAEQlihDd3imrBPrsBrkAUYfbYywfeGyDsianBJjqXbbVsTGfsxdsX+DoJqInEtgmqYl7J6R+mtvllx3Le2W2rnRBbQXo/Q4CeTeNIfFZs6gmJzZn5B+jUWNDHasG2paQqnV2obZdiHQzmGnaDGptl8QuTd4ARFI4oCuAwT3hd1v4GZxKcj9RGUpO7b4a9RrxIQ3O+EPNxYUs+5LXo/7FGHh/VJRl/1IOr65wNAUcX7JNj/mVv9Xg/cEouqHqNSaZ2bbOoCp7nFKEU224IVIL7LzYvKSpz3zOr+P8Os6v4/R1SBTKE89JIvWw+4ukwIomUoljKM1lUnjANn8BPXsjZ48GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT IN23c66363c3fc3a1058a9d5fc05013118,27c66363c3fc3a1058a9d5fc05013119,67c66363c3fc3a1058a9d5fc05013118,6bc66363c3fc3a1058a9d5fc05013119,abc66363c3fc3a1058a9d5fc05013118,afc66363c3fc3a1058a9d5fc05013119,efc66363c3fc3a1058a9d5fc05013118"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>23c66363c3fc3a1058a9d5fc05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d38d71e1-276e-4300-beda-30a559fd0e84</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_endtime}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>27c66363c3fc3a1058a9d5fc05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>47f60523-dda1-466c-850a-c75b042b7df8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>67c66363c3fc3a1058a9d5fc05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f1cb93cd-911b-4494-bdc1-d7931c99b79c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.user_name.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>6bc66363c3fc3a1058a9d5fc05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7380d7df-4834-4c77-ba65-5f107393c47b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_start_tim0}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>abc66363c3fc3a1058a9d5fc05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5c6769d-707a-4160-a78e-07f184acb593</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.work_start_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>afc66363c3fc3a1058a9d5fc05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>85f195de-6c58-40d6-9078-3e74fba23b88</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>67065d8bc3bcf21058a9d5fc0501318f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.user_name.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:22</sys_created_on>
+        <sys_id>efc66363c3fc3a1058a9d5fc05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d7ca2f35-d2a0-463f-b722-c8ff2b2a31f9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=67065d8bc3bcf21058a9d5fc0501318f^sys_idNOT INb350f367c3307a1058a9d5fc05013118"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=92f0c4d5-d0f8-49a0-8155-6d377e8bae96</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>end_work</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>退勤</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="laborflow">67065d8bc3bcf21058a9d5fc0501318f</model>
+        <model_id>67065d8bc3bcf21058a9d5fc0501318f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_67065d8bc3bcf21058a9d5fc0501318f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 14:17:10</sys_created_on>
+        <sys_id>b350f367c3307a1058a9d5fc05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 14:17:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -768,17 +1536,17 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>request_item</element>
+        <element>current</element>
         <help/>
         <hint/>
-        <label>Request Item</label>
+        <label>Record</label>
         <language>en</language>
         <name>var__m_sys_hub_flow_input_67065d8bc3bcf21058a9d5fc0501318f</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 06:14:34</sys_created_on>
-        <sys_id>f0587c93c3b8761058a9d5fc050131be</sys_id>
+        <sys_created_on>2025-10-31 13:35:21</sys_created_on>
+        <sys_id>93c62363c3fc3a1058a9d5fc0501316b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -786,7 +1554,30 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:34</sys_updated_on>
+        <sys_updated_on>2025-10-31 13:35:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_67065d8bc3bcf21058a9d5fc0501318f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 13:35:21</sys_created_on>
+        <sys_id>d3c62363c3fc3a1058a9d5fc05013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 13:35:21</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -800,7 +1591,7 @@
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=43245d87c3bcf21058a9d5fc05013193^sys_idNOT IN3f065d8bc3bcf21058a9d5fc050131df"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3f065d8bc3bcf21058a9d5fc050131df","name":"plan","plan_signature":null}}</plan>
         <plan_id>43245d87c3bcf21058a9d5fc05013193</plan_id>
         <snapshot>67065d8bc3bcf21058a9d5fc0501318f</snapshot>
@@ -809,12 +1600,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f065d8bc3bcf21058a9d5fc050131df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 06:14:35</sys_updated_on>
-        <trigger display_value="">8158bc93c3b8761058a9d5fc05013127</trigger>
+        <sys_updated_on>2025-10-31 14:17:11</sys_updated_on>
+        <trigger display_value="">1860f367c3307a1058a9d5fc050131bb</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=43245d87c3bcf21058a9d5fc05013193"/>
 </record_update>

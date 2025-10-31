@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="勤怠時間管理">3d4f0c43c3b4f21058a9d5fc050131e5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>test</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1813832_0_working_hours_table</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://dev228471.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Df5fb8c8bc374f21058a9d5fc05013113</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>admin,x_1813832_0.user,x_1813832_0.taime_management_user,x_1813832_0.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-29 11:06:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db41bcc3c3b8f21058a9d5fc05013109</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>勤務開始登録</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_app_module_db41bcc3c3b8f21058a9d5fc05013109</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-30 07:52:14</sys_updated_on>
+        <timeline_page/>
+        <title>勤務開始登録</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

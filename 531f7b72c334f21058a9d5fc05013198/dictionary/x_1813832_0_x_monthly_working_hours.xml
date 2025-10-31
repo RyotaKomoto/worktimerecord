@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c25df923c3b03a1058a9d5fc05013177" label="毎月の勤務時間記録" max_length="40" name="x_1813832_0_x_monthly_working_hours" type="collection"/>
+</database>

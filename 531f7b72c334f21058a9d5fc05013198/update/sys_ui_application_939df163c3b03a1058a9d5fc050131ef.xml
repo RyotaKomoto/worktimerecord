@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>毎月の勤務時間記録</name>
+        <order/>
+        <roles>x_1813832_0._user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 05:55:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>939df163c3b03a1058a9d5fc050131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>毎月の勤務時間記録</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_ui_application_939df163c3b03a1058a9d5fc050131ef</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 05:55:47</sys_updated_on>
+    </sys_ui_application>
+</record_update>

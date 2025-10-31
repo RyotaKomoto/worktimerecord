@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1813832_0.UserRestrictQualifier</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UserRestrictQualifier</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var UserRestrictQualifier = Class.create();
+UserRestrictQualifier.prototype = {
+    initialize: function() {},
+    getUserRestriction: function() {
+        if (gs.hasRole('admin')) {
+            return ''; // adminは制限なし
+        }
+        return 'sys_id=' + gs.getUserID(); // 操作ユーザーのみ
+    },
+    type: 'UserRestrictQualifier'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 05:21:28</sys_created_on>
+        <sys_id>bf857563c3703a1058a9d5fc050131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserRestrictQualifier</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_script_include_bf857563c3703a1058a9d5fc050131d6</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 05:21:28</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</application>
+        <file_path/>
+        <instance_id>4f5e50311bb2f510ba5ceb9b2d4bcbb5</instance_id>
+        <instance_name>dev228471</instance_name>
+        <name>sys_script_include_bf857563c3703a1058a9d5fc050131d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1813832_0.UserRestrictQualifier&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;UserRestrictQualifier&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var UserRestrictQualifier = Class.create();
+UserRestrictQualifier.prototype = {
+    initialize: function() {},
+    getUserRestriction: function() {
+        if (gs.hasRole('admin')) {
+            return ''; // adminは制限なし
+        }
+        return 'sys_id=' + gs.getUserID(); // 操作ユーザーのみ
+    },
+    type: 'UserRestrictQualifier'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_komoto_ryota&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-31 05:21:28&lt;/sys_created_on&gt;&lt;sys_id&gt;bf857563c3703a1058a9d5fc050131d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;UserRestrictQualifier&lt;/sys_name&gt;&lt;sys_package display_value="勤怠時間管理" source="x_1813832_0"&gt;531f7b72c334f21058a9d5fc05013198&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="勤怠時間管理"&gt;531f7b72c334f21058a9d5fc05013198&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bf857563c3703a1058a9d5fc050131d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_komoto_ryota&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-31 05:21:28&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1837293297</payload_hash>
+        <record_name>UserRestrictQualifier</record_name>
+        <reverted_from/>
+        <source>52b8fcd3c3b8761058a9d5fc0501313d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 05:21:29</sys_created_on>
+        <sys_id>45c53d63c3703a1058a9d5fc05013114</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a38b6b5290000001</sys_recorded_at>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 05:21:29</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>34c53d633c703a10eb95b5a4708ab013</update_guid>
+        <update_guid_history>34c53d633c703a10eb95b5a4708ab013:-1837293297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-31 05:24:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>6d9b8fe02a6743c78de9ccb6fabb98d9</sys_id>
+        <sys_metadata>bf857563c3703a1058a9d5fc050131d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserRestrictQualifier</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_scope_delete display_value="">031226f4e9a741908a77d74161de8959</sys_scope_delete>
+        <sys_update_name>sys_script_include_bf857563c3703a1058a9d5fc050131d6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_bf857563c3703a1058a9d5fc050131d6">45c53d63c3703a1058a9d5fc05013114</sys_update_version>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 05:24:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

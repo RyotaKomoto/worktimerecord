@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8c7c083c374f21058a9d5fc05013142" label="Working Hours Table" max_length="40" name="x_1813832_0_working_hours_table" type="collection">
+        <element label="ユーザー名" max_length="32" name="user_name" read_only="true" reference="sys_user" type="reference"/>
+        <element label="ステータス" max_length="40" name="status" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="勤務形態" max_length="40" name="attendance_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="在宅勤務" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="出社" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Date" max_length="40" name="today" type="glide_date"/>
+        <element label="勤務開始時間" max_length="255" name="work_start_tim0" read_only="true" type="glide_date_time"/>
+        <element label="勤務開始時間" max_length="40" name="work_start_time" read_only="true" type="string"/>
+        <element default="javascript: new GlideDateTime().getDisplayValue()" label="退勤時間" max_length="40" name="work_endtime" type="glide_date_time"/>
+        <element label="所属" max_length="32" name="user_affiliation" read_only="true" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="user_name"/>
+        </index>
+    </element>
+</database>

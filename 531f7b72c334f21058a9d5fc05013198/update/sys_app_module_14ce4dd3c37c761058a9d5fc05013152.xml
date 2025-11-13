@@ -4,7 +4,7 @@
         <application display_value="勤怠時間管理">3d4f0c43c3b4f21058a9d5fc050131e5</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1813832_0_working_hours_table">sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^statusSTARTSWITH退勤^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        <filter table="x_1813832_0_working_hours_table">sys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^statusSTARTSWITH退勤^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
             <item endquery="false" field="status" goto="false" newquery="false" operator="STARTSWITH" or="false" value="退勤"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -16,19 +16,19 @@
         <mobile_title>今月の勤怠時間</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1813832_0_working_hours_table</name>
-        <order/>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>x_1813832_0_working_hours_table_list.do?sysparm_query=createdONThisMonth^ステータスSTARTSWITH退勤</query>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles/>
+        <roles>x_1813832_0._user,x_1813832_0.admin,x_1813832_0.taime_management_user,x_1813832_0.user,x_1813832_test.agent,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
         <sys_created_on>2025-10-30 07:56:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>14ce4dd3c37c761058a9d5fc05013152</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>今月の勤怠時間</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_app_module_14ce4dd3c37c761058a9d5fc05013152</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 08:07:27</sys_updated_on>
+        <sys_updated_on>2025-11-12 01:33:39</sys_updated_on>
         <timeline_page/>
         <title>今月の勤怠時間</title>
         <uncancelable>false</uncancelable>

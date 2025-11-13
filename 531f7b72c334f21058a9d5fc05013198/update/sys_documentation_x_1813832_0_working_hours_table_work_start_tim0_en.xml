@@ -11,14 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
             <sys_created_on>2025-10-30 07:20:54</sys_created_on>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>8</sys_mod_count>
             <sys_name>勤務開始時間</sys_name>
             <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
             <sys_policy/>
             <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
             <sys_update_name>sys_documentation_x_1813832_0_working_hours_table_work_start_tim0_en</sys_update_name>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-31 04:01:07</sys_updated_on>
+            <sys_updated_on>2025-11-07 05:24:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

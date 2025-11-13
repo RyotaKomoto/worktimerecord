@@ -4,13 +4,13 @@
             <element>user_name</element>
             <position>0</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>2f9c45dfc33c761058a9d5fc050131bd</sys_id>
+            <sys_created_on>2025-11-12 04:12:19</sys_created_on>
+            <sys_id>fc095797c345321058a9d5fc0501312c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>user_affiliation</element>
             <position>1</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>e79c45dfc33c761058a9d5fc050131be</sys_id>
+            <sys_created_on>2025-11-12 04:12:19</sys_created_on>
+            <sys_id>74095797c345321058a9d5fc0501312e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>attendance_type</element>
             <position>2</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>a39c45dfc33c761058a9d5fc050131bf</sys_id>
+            <sys_created_on>2025-11-12 04:12:19</sys_created_on>
+            <sys_id>30095797c345321058a9d5fc0501312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_start_time</element>
+            <element>work_start_tim0</element>
             <position>3</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>6f9c45dfc33c761058a9d5fc050131bf</sys_id>
+            <sys_created_on>2025-11-12 04:12:19</sys_created_on>
+            <sys_id>f8095797c345321058a9d5fc0501312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>work_endtime</element>
             <position>4</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>2b9c45dfc33c761058a9d5fc050131c0</sys_id>
+            <sys_created_on>2025-11-12 04:12:20</sys_created_on>
+            <sys_id>b4095797c345321058a9d5fc05013130</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,55 @@
             <element>status</element>
             <position>5</position>
             <sys_created_by>admin_komoto_ryota</sys_created_by>
-            <sys_created_on>2025-10-30 07:43:13</sys_created_on>
-            <sys_id>e39c45dfc33c761058a9d5fc050131c1</sys_id>
+            <sys_created_on>2025-11-12 04:12:20</sys_created_on>
+            <sys_id>70095797c345321058a9d5fc05013131</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
             <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-            <sys_updated_on>2025-10-30 07:43:13</sys_updated_on>
+            <sys_updated_on>2025-11-12 04:12:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_time</element>
+            <position>6</position>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2025-11-12 04:12:20</sys_created_on>
+            <sys_id>f0095797c345321058a9d5fc0501313e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2025-11-12 04:12:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>target</element>
+            <position>7</position>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2025-11-12 05:21:18</sys_created_on>
+            <sys_id>8bc8a71bc3c5321058a9d5fc050131bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2025-11-12 05:21:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>8</position>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2025-11-12 07:01:08</sys_created_on>
+            <sys_id>61af7fd7c389321058a9d5fc050131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_working_hours_table" sys_domain="global" view="Default view">ecc7c487c37c721058a9d5fc05013142</sys_ui_section>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2025-11-12 07:01:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

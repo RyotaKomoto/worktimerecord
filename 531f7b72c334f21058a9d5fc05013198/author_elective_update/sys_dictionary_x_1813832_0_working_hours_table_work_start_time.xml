@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="work_start_time" table="x_1813832_0_working_hours_table">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>勤務開始時間</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>work_start_time</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1813832_0_working_hours_table</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-30 06:40:18</sys_created_on>
+        <sys_name>勤務開始時間</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_dictionary_x_1813832_0_working_hours_table_work_start_time</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 04:01:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</application>
+        <file_path/>
+        <instance_id>4f5e50311bb2f510ba5ceb9b2d4bcbb5</instance_id>
+        <instance_name>dev228471</instance_name>
+        <name>sys_dictionary_x_1813832_0_working_hours_table_work_start_time</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="work_start_time" table="x_1813832_0_working_hours_table">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>勤務開始時間</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>work_start_time</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1813832_0_working_hours_table</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-10-30 06:40:18</sys_created_on>
+        <sys_name>勤務開始時間</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_dictionary_x_1813832_0_working_hours_table_work_start_time</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-10-31 04:01:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-185998789</payload_hash>
+        <record_name>Working Hours Table.勤務開始時間</record_name>
+        <reverted_from/>
+        <source>a42a7b27c3c1321058a9d5fc0501317a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-13 01:15:56</sys_created_on>
+        <sys_id>ea3a3767c3c1321058a9d5fc05013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a7ac892d30000001</sys_recorded_at>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-13 01:15:56</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>263a3767dcc13210532fe1e6a09c5a49</update_guid>
+        <update_guid_history>263a3767dcc13210532fe1e6a09c5a49:0,74b18132dec932107b414859e4746409:-20279752,1e99b139060db210425cf871d35d11ca:-1864696956,c3d8d9e1fd8932107014cb23e534a649:1566464384,9d5755211789321068ed4a6d890a0cee:-780464412,d63032b80441321071f52bc46916c2b6:0,7f5361eb73bcf610e9ddd949c7e6b0dc:-753905629,1b9c45df423c76105e793460695193a7:-229915769,441c019f613c7610bdc0ff070360a68f:-728041430,62c70157ff3c76100ce5bd1b0064df6f:37315744,e2c70157763c761056e8fadefe759048:884552,788785174c3c7610cb68e3b15e0fd8e9:-1771441106,7b1789d3473c7610c02ededdbae94ff5:-220190332,b7f685d3a83c7610393616ab52259cac:-617154268,ce3eb0df3cb876101bf31296fefa844f:-728041430,0e3eb0df47b87610fc6569cd271fdd42:1487988711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-13 01:46:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>4979d9db16714df8b45e7d6984535910</sys_id>
+        <sys_metadata>b13ab367c3c1321058a9d5fc050131c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>勤務開始時間</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_parent display_value="Working Hours Table">d8c7c083c374f21058a9d5fc05013142</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_scope_delete display_value="">031226f4e9a741908a77d74161de8959</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1813832_0_working_hours_table_work_start_time</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1813832_0_working_hours_table_work_start_time">ea3a3767c3c1321058a9d5fc05013149</sys_update_version>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-13 01:46:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

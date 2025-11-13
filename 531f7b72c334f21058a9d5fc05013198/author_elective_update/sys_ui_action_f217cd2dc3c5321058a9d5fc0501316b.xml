@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>今月の労働時間出力</name>
+        <onclick/>
+        <order>100</order>
+        <script/>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-06 07:06:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f217cd2dc3c5321058a9d5fc0501316b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>今月の労働時間出力</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_ui_action_f217cd2dc3c5321058a9d5fc0501316b</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-06 07:06:55</sys_updated_on>
+        <table>x_1813832_0_x_monthly_working_hours</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</application>
+        <file_path/>
+        <instance_id>4f5e50311bb2f510ba5ceb9b2d4bcbb5</instance_id>
+        <instance_name>dev228471</instance_name>
+        <name>sys_ui_action_f217cd2dc3c5321058a9d5fc0501316b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;今月の労働時間出力&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_komoto_ryota&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-06 07:06:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f217cd2dc3c5321058a9d5fc0501316b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;今月の労働時間出力&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="勤怠時間管理" source="x_1813832_0"&gt;531f7b72c334f21058a9d5fc05013198&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="勤怠時間管理"&gt;531f7b72c334f21058a9d5fc05013198&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_f217cd2dc3c5321058a9d5fc0501316b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_komoto_ryota&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-06 07:06:55&lt;/sys_updated_on&gt;&lt;table&gt;x_1813832_0_x_monthly_working_hours&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>14491831</payload_hash>
+        <record_name>今月の労働時間出力</record_name>
+        <reverted_from/>
+        <source>52b8fcd3c3b8761058a9d5fc0501313d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-06 07:06:55</sys_created_on>
+        <sys_id>7b67896dc3c5321058a9d5fc0501319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a57fd64f60000001</sys_recorded_at>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-06 07:06:55</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>b767896d5ac53210ad3c55e3e1f8099a</update_guid>
+        <update_guid_history>b767896d5ac53210ad3c55e3e1f8099a:14491831,f147056d77c53210dc469316445aee1f:-1913581245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-06 07:40:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>26594aec37f248658b89c7ac42c8f439</sys_id>
+        <sys_metadata>f217cd2dc3c5321058a9d5fc0501316b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>今月の労働時間出力</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_parent display_value="毎月の勤務時間記録">c25df923c3b03a1058a9d5fc05013177</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_scope_delete display_value="">031226f4e9a741908a77d74161de8959</sys_scope_delete>
+        <sys_update_name>sys_ui_action_f217cd2dc3c5321058a9d5fc0501316b</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_f217cd2dc3c5321058a9d5fc0501316b">7b67896dc3c5321058a9d5fc0501319b</sys_update_version>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-06 07:40:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

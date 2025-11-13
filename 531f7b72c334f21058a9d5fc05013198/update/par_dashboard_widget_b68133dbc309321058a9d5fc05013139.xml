@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">879e2e07c30d321058a9d5fc0501314c</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"userInfo":"@context.session.user","showFilterIcon":true,"enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"dateFormat":"default","showMaximumRange":false,"emptyStateAlignment":"vertical-centered","scoreType":null,"showFirstGroupAggregate":false,"emptyStateHeading":"No data available.","showForecast":false,"showZero":true,"filterPerMetric":[],"chartInteractionActionGoToURLPageName":null,"sortBy":"value","dataSources":[{"sourceType":"table","allowRealTime":true,"label":"毎月の勤務時間記録","id":"dGFibGV4XzE4MTM4MzJfMF94X21vbnRobHlfd29ya2luZ19ob3VyczE3NjI5MjcxNjQ4MjY=","tableOrViewName":"x_1813832_0_x_monthly_working_hours","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"dataCategories":["trend","group","simple"],"isDatabaseView":false,"filterQuery":"target_year_monthSTARTSWITH2025"}],"chartInteractionActionGoToURLInput":"null","showAdditionalGroupBySelector":false,"cacheExpirationTime":0,"period":"M","showChange":false,"configVersion":"23.0.0-ci-SNAPSHOT","showSubAggregate":false,"showLoadingIndicator":false,"useDataCache":false,"showSecondGroupAggregate":false,"showFilterAsSeparateSeries":false,"showMetricLabel":false,"headingPosition":"top","showCacheTime":true,"showHeaderSeparator":false,"showSparkline":false,"hideDevSettings":false,"showTarget":false,"allowAdditionalGroupByPerMetric":true,"telemetry":null,"metrics":[{"numberFormat":{"customFormat":false},"id":"ZEdGaWJHVjRYekU0TVRNNE16SmZNRjk0WDIxdmJuUm9iSGxmZDI5eWEybHVaMTlvYjNWeWN6RTNOakk1TWpjeE5qUTRNalk9MTc2MjkyNzE2NTYwMQ==","aggregateFunction":"COUNT","dataSource":"dGFibGV4XzE4MTM4MzJfMF94X21vbnRobHlfd29ya2luZ19ob3VyczE3NjI5MjcxNjQ4MjY=","axisId":"primary"}],"showChangeFrom":"previous","showDataTable":false,"configPropModifiers":{},"applyDateRange":false,"sharedContext":{"datasourceConfigurations":{"table":{"useSeriesLabels":false,"timeZone":"SESSION"}}},"sortByOrder":"desc","enableCustomEmptyState":false,"componentId":"br2jqnmx","showThreshold":false,"allowChangeDateRange":false,"showScoreDate":false,"hideMatrixAggregate":false,"trendBy":null,"numberOfPeriods":3,"scoreIcon":"","groupBy":null,"showRefresh":true,"contextMenuActions":[],"iconStyle":"background","colors":{},"showTrend":false,"enableRealTimeUpdate":false,"useCurrentDateForEnd":false,"showScoreUpdateTime":false,"showForecastRange":false,"showAbsolutePeriod":false,"scoreSize":"auto","followFilters":true,"enableClickAndStay":false,"useRelativeScoreTime":false,"showTotalAggregate":false,"showChangePercentage":false,"chartInteractionAction":"goToUrl","showHeader":true,"bareBorder":false,"showDateRangeByDefault":false,"showConfidenceBand":false,"showComment":false,"refreshFrequency":null,"wrapTitle":false,"additionalGroupByConfig":[],"showBorder":true,"colorConfig":{"type":"default"},"filterConfigurations":"@state.parFilters","showGapPercentage":false,"showDataPassthrough":false,"sparklineStyle":"area","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","newReporting":false,"emptyStateIllustration":"no-data","headingLevel":2,"enableDrilldown":true}</component_props>
+        <h>24</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2025-11-12 05:59:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b68133dbc309321058a9d5fc05013139</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>par_dashboard_widget_b68133dbc309321058a9d5fc05013139</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2025-11-12 07:16:25</sys_updated_on>
+        <visualization/>
+        <w>17</w>
+        <widget_props/>
+        <x>0</x>
+        <y>9</y>
+    </par_dashboard_widget>
+</record_update>
